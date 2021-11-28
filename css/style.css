@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+
+#header .h-left{
+    display: flex;
+    align-items: center;
+}
+
+#header .h-left img{
+    width: 100px;
+    margin-left: 0.5rem;
+}
+
+#header .h-left span{
+    cursor: pointer;
+    padding: 0 7px;
+}
+
+#header .h-search{
+    display: flex;
+    align-items: center;
+}
+
+#header .h-search form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 10px;
+}
+
+#header .h-search input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 0px;
+  
+}
+
+main .sidebar-item{
+    display: flex;
+   align-items: center;
+    padding-left: 25px;
+}
+
+main {
+    display: flex;
+
+}
+.main_right_title{
+    display: flex;
+    margin-left: 200px;
+    
+}
+.main_right_title h3{
+    background: #f2f2f2;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.main_content .video .logo_video img{
+    width: 264px;
+    height: 150px;
+}
+
+.title_video_logo img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.title_video{
+    
+    display: flex;
+    width: 264px
+    
+}
+
+.title_video_logo img{
+    margin-top: 20px;
+}
+
+.main_content{
+    display: flex;
+    flex-flow: wrap;
+    
+}
+.video{
+    margin-left: 20px;
+}
